@@ -1,0 +1,23 @@
+$fail-color: #D24D57;
+$pass-color: #6B9362;
+
+.fail {
+  background-color:$fail-color;
+}
+
+.pass {
+  background-color:$pass-color;
+}
+div
+  {
+    &.output {
+      color:white;
+      padding:5px 10px;
+      border-radius: 5px;
+      span {
+        font-weight:bold;
+        text-transform: uppercase;
+        float:right;
+      }
+  }
+}
